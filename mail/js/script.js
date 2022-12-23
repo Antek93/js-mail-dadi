@@ -1,3 +1,1 @@
-let x = 0;
-
-console.log('x=', x, typeof x)
+console.log('I am js and I am correctly linked')
