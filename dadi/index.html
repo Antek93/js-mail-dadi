@@ -6,11 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dadi</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik+Gemstones&family=Satisfy&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div class="ciao">
-        ciao
-    </div>
+    <header>
+        <div class="head">
+           <div class="title">
+             USER
+           </div>
+           <div id="hidden-tie" class="tie">
+            TIE
+          </div>
+           <div class="title">
+             COMPUTER
+           </div>
+        </div>
+    </header>
+    <main>
+        <div class="box-1">
+            <div class="space"></div>
+            <div class="elements">
+                <div id="hidden-one" class="win one">you win</div>
+                <div id="user-score" class="score"></div>
+                <div id="hidden-three" class="lose one">you lose</div>
+            </div>
+        </div>
+         <div class="box-2">
+            <div class="space"></div>
+            <div class="elements">
+                <div id="hidden-four" class="win two">you win</div>
+                <div id="pc-score" class="score"></div>
+                <div id="hidden-two" class="lose two">you lose</div>
+            </div>
+         </div>
+    </main>
+    <footer>
+        <div class="board">
+            <div class="title">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <button id="btn" class="title play">
+                <i class="fa-solid fa-play"></i>
+            </button>
+            <div class="title">
+                <i class="fa-solid fa-robot"></i>
+            </div>
+        </div>
+    </footer>
+   
     <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/d67383daac.js" crossorigin="anonymous"></script>
 </body>
 </html>

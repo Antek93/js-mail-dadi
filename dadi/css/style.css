@@ -6,6 +6,138 @@
     box-sizing: border-box;
 }
 
-.ciao {
-    background-color: red;
+body {
+    background-color: black;
+}
+
+.head {
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    background-color: #000000;
+    background-position: top;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid #09cc00;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 31px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 10px;
+    padding: 7px 30px;
+    border: 2px solid #09cc00;
+    width: 390px;
+    text-align: center;
+}
+
+.tie {
+    position: absolute;
+    font-family: Rubik Gemstones, Arial, Helvetica, sans-serif;
+    font-size: 68px;
+    color: rgb(0, 250, 12);
+    display: none;
+}
+
+.space {
+    margin-top: 10vh;
+}
+
+main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.box-1 {
+    width: 50%;
+    background-color: #000000;
+    border: 2px solid rgb(0, 250, 12);
+    border-radius: 10px;
+    padding-bottom: 5px;
+    height: 100vh;
+}
+
+.box-2 {
+    width: 50%;
+    background-color: #000000;
+    border: 2px solid rgb(0, 250, 12);
+    border-radius: 10px;
+    padding-bottom: 5px;
+    height: 100vh;
+
+}
+
+.board {
+    position: fixed;
+    background-color: #000000;
+    height: 10vh;
+    background-position: bottom;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: 3px solid #09cc00;
+    border-radius: 10px;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    justify-content: space-around;
+}
+
+.play {
+    position: absolute;
+    top: -30px;
+    cursor: pointer;
+    width: 136px;
+}
+
+
+.win {
+    font-family: satisfy, Arial, Helvetica, sans-serif;
+    font-size: 150px;
+}
+
+.lose {
+    font-family: Rubik Gemstones, Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+
+.win.one {
+    color:  rgb(0, 250, 12);
+    display: none;
+}
+
+.win.two {
+    color:  rgb(0, 250, 12);
+    display: none;
+}
+
+.lose.one {
+    color: red;
+    display: none;
+}
+
+.lose.two {
+    color: red;
+    display: none;
+
+}
+
+.score {
+    font-family: satisfy, Arial, Helvetica, sans-serif;
+    font-size: 272px;
+    font-weight: bold;
+    color: white;
 }
